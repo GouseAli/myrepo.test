@@ -2,8 +2,8 @@ name: CI
 
 on: push
 
-jobs: anything
-  build:
+jobs: 
+ defaults:
     runs-on: ubuntu-latest
 
     steps:
